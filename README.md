@@ -10,7 +10,7 @@ Llama3-8b running on my laptop answers questions a little slower than calling th
 I tried the Llama3-70b model too, but responses took a VERY long time to execute running on my laptop.  My laptop is no slacker either, it's a brand new G-Series with 32GB RAM, i9 CPU, and NVIDIA GeForce RTX 4060.
 
 ## Changes needed to your OpenAI code
-R2D2OpenAILlama uses the exact same code as my R2D2ChatGpt https://github.com/rcorvus/R2D2ChatGpt,
+R2D2OpenAILlama uses the exact same code as my [R2D2ChatGpt](https://github.com/rcorvus/R2D2ChatGpt),
 except we just need to replace this line of code in chatgpt.py:
 
 ```
