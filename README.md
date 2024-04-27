@@ -1,7 +1,13 @@
 # R2D2OpenAILlama3
-Can you use your existing OpenAI code with a local Llama3 instance?  Yes!
-It's super easy with Ollama (instructions on how to install Ollama below).
+Can you use your existing OpenAI code with a local Llama3 instance?  Yes!  
+It's super easy with Ollama.  The instructions below explain the code change needed in your OpenAI code and how to install Ollama.  
 
+## How well does it work?
+Llama3-8b running on my laptop answers questions a little slower than calling the OpenAI ChatGPT service, but it actually answers the questions much better than chatgpt3.5-turbo. Compare the responses below to the answers I received in my chatgpt3.5-turbo:  
+
+![image](https://github.com/rcorvus/R2D2OpenAILlama3/assets/5025458/79d854bd-6461-4ad8-9c69-f4e5ac3b1bba)  
+
+## Changes needed to your OpenAI code
 R2D2OpenAILlama uses the exact same code as my R2D2ChatGpt https://github.com/rcorvus/R2D2ChatGpt,
 except we just need to replace this line of code in chatgpt.py:
 
@@ -15,6 +21,8 @@ With this:
             api_key='ollama', # required, but unused
             )
 ```
+
+Since you no longer need to store your secret OpenAI api key, you can remove the code for that.
 
 ## How to install Ollama
 
