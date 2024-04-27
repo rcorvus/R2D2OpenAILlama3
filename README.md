@@ -3,7 +3,7 @@
 It's super easy with Ollama.  The instructions below explain the code change needed in your OpenAI code and how to install Ollama.  
 
 ## How well does it work?
-Llama3-8b running on my laptop answers questions a little slower than calling the OpenAI ChatGPT service, but it actually answers the questions much better than chatgpt3.5-turbo. Compare the responses below to the answers I received in my chatgpt3.5-turbo:  
+Llama3-8b running on my laptop answers questions a little slower than calling the OpenAI ChatGPT service, but the *quality* of the answers are much better than from chatgpt3.5-turbo. Compare the responses below to the answers I received in my chatgpt3.5-turbo:  
 
 ![image](https://github.com/rcorvus/R2D2OpenAILlama3/assets/5025458/79d854bd-6461-4ad8-9c69-f4e5ac3b1bba)  
 
