@@ -21,4 +21,5 @@ With this:
 1. Download Ollama from here (it works on Linux, Mac, and Windows):  https://ollama.com/download
 2. Install it.
 3. In Powershell/cmd, run ```ollama pull llama3```, which pulls the "small" 8B LLM, or ```ollama pull llama3:70b``` to pull the giant 70B LLM.  The 8b downloads pretty quickly but the 70b took several hours because it's 40GB and the connection kept crashing requiring me to keep restarting the pull.
-4.  Verify the ollama service is running on your computer.  Here it is running on my laptop in systray:
+4. Start the ollama service on your computer by running ```ollama serve```
+5.  Verify the ollama service is running on your computer.  Here it is running on my laptop in systray:
