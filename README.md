@@ -1,5 +1,5 @@
 # R2D2OpenAILlama3
-##Can you use your existing OpenAI code with a local Llama3 instance?  Yes!  
+## Can you use your existing OpenAI code with a local Llama3 instance?  Yes!  
 It's super easy with Ollama.  The instructions below explain the code change needed in your OpenAI code and how to install Ollama.  
 
 ## How well does it work?
